@@ -1,0 +1,22 @@
+{
+	"name": "webtooling002",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint index.js",
+		"prepare": "husky install"
+	},
+	"engines": {
+		"node": "^14"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^8.9.0",
+		"eslint-config-recommended": "^4.1.0",
+		"husky": "^7.0.4",
+		"prettier": "^2.5.1"
+	}
+}
